@@ -1,0 +1,52 @@
+.container {
+  background-color: #b9b4b9;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.cta {
+  color: black;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.diceInnerContainer {
+  display: flex;
+  padding: 0.5rem;
+  background-color: #ededed;
+  border-radius: 0.3rem;
+  width: 100%;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0px 4px 4px 0px #9379AB;
+}
+
+.diceTile {
+  border-radius: 0.3rem;
+  width: 30px;
+  height: 30px;
+  background-color: #ededed;
+  color: #9379ab;
+  border: 1px solid #9379ab;
+}
+
+.button {
+  width: 100%;
+  height: 30px;
+  background-color: #504850;
+  padding: 0.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 0px 4px 4px 0px #50485082;
+}
+
+.sumText {
+  width: 100%;
+  font-size: 0.8rem;
+  color: #9379ab;
+}

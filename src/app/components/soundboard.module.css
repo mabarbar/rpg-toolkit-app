@@ -1,0 +1,59 @@
+.container {
+  background-color: #b9b4b9;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.cta {
+  color: #504850;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.tileContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.diceTile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 50px;
+  padding: 0.5rem;
+  color: #9379ab;
+  background-color: #ededed;
+  border-radius: 0.3rem;
+  box-shadow: 0px 4px 4px 0px #9379ab;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.diceTile:hover {
+  background-color: #ededed9c;
+}
+
+.status {
+  width: 100%;
+  color: #504850;
+  font-size: 0.8rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  background-color: #504850;
+  padding: 0.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 0px 4px 4px 0px #50485082;
+}
